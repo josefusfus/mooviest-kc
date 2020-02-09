@@ -9,7 +9,7 @@ const routes: Routes = [
     component: TabsPage,
     children: [
         {
-              path: 'movie-tab',
+              path: 'movie',
               children: [
                   {
                     path: '',
@@ -18,7 +18,7 @@ const routes: Routes = [
                 ]
         },
         {
-              path: 'about-tab',
+              path: 'about',
               children: [
                   {
                     path: '',
@@ -30,7 +30,7 @@ const routes: Routes = [
   },
   {
       path: '',
-      redirectTo: '/tabs/movie-tab',
+      redirectTo: '/tabs/movie',
       pathMatch: 'full'
 
   }
