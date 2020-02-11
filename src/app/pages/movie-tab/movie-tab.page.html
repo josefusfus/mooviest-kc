@@ -1,9 +1,24 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>movie</ion-title>
+    <ion-title>movies</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+    <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+      <ion-refresher-content></ion-refresher-content>
+    </ion-refresher>
+  <ion-list>
+    <ion-item (click)="goToDetail(movie.id)" *ngFor="let movie of movies">
+        <ion-thumbnail slot="start">
+            <img [src]="movie.image">
+        </ion-thumbnail>
+      <ion-label>
+            {{movie.title}}
+             <br>
+            <ion-note>{{movie.release_date}}</ion-note>
+      </ion-label>
+    </ion-item>
+    
+  </ion-list>
 </ion-content>

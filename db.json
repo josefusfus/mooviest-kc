@@ -1,0 +1,34 @@
+{
+  "movie": [
+    {
+      "id": 0,
+      "title": "Stars Wars -Episodio IV",
+      "image": "https://odetojoandkatniss.files.wordpress.com/2014/03/star-wars-episode-iv.jpg",
+      "Episode_id": 4,
+      "opening_crawl": "Hace mucho tiempo en una galaxia muy, muy lejana [...] Son tiempos de guerra civil. Naves rebeldes han atacado desde una base secreta y han obtenido su primera victoria contra el malvado Imperio Galáctico. [...] Durante la batalla, espías rebeldes lograron robar los planos secretos del arma más extrema del Imperio, la Estrella de la Muerte, una estación espacial blindada con suficiente potencia para destruir un planeta entero. [...] Perseguida por los siniestros agentes del Imperio, la Princesa Leia se dirige velozmente a casa en su nave espacial, mientras resguarda los planos que pueden salvar a su pueblo y restaurar la libertad en la galaxia...",
+      "director": "Irwin Kersner",
+      "producer": "Gary Kurtz",
+      "release_date": "1977-05-25"
+    },
+    {
+      "id": 1,
+      "title": "El Imperio Contraataca",
+      "image": "https://fanart.tv/fanart/movies/1891/movieposter/star-wars-episode-v---the-empire-strikes-back-5229c2d4a1c75.jpg",
+      "Episode_id": 5,
+      "opening_crawl": "Hace mucho tiempo en una galaxia muy, muy lejana [...] Es una época oscura para la Rebelión. Aunque la Estrella de la Muerte ha sido destruida, las tropas imperiales han obligado a las fuerzas rebeldes a dejar sus bases secretas y las han perseguido a través de la galaxia. [...] En una fuga de la temida Flota Imperial, un grupo de guerreros rebeldes liderado por Luke Skywalker ha establecido una nueva base secreta en la remota tierra congelada de Hoth. [...] Darth Vader, Señor del mal, obsesionado con encontrar al joven Skywalker, ha despachado al lejano espacio miles de sondas a control remoto...",
+      "director": "Irwin Kersner",
+      "producer": "Gary Kurtz",
+      "release_date": "1980-06-20"
+    },
+    {
+      "id": 2,
+      "title": "El retorno del Jedi",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51x2FpiS-UL._SY300_.jpg",
+      "Episode_id": 6,
+      "opening_crawl": "Hace mucho tiempo en una galaxia muy, muy lejana [...] Luke Skywalker ha regresado a Tatooine, su planeta de origen, en un intento de rescatar a su amigo Han Solo de las garras del vil Jabba. [...] Luke no sabe que el Imperio Galáctico ha iniciado secretamente la construcción de una nueva estación espacial blindada, incluso más poderosa que la primera y temida Estrella de la Muerte. [...] Una vez terminada, esta arma extrema augurará una muerte segura para el pequeño grupo de rebeldes que lucha por restaurar la libertad en la galaxia....",
+      "director": "Irwin Kersner",
+      "producer": "Gary Kurtz",
+      "release_date": "1983-05-25"
+    }
+  ]
+}
