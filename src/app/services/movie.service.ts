@@ -7,6 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class MovieService {
   urlInicial: string;
+  id: string;
 
   constructor(private _http: HttpClient) {
     this.urlInicial = 'http://localhost:3000/movie?id=';
@@ -19,8 +20,9 @@ export class MovieService {
   }
 
   getDetail(id: string) {
-    //const URL = this.urlInicial + id;
-    return this._http.get(this.urlInicial + id);
+    const URL = this.urlInicial + id;
+    console.log(URL);
+    return this._http.get(URL);
   }
 }
 

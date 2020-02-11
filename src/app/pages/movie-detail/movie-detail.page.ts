@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute} from '@angular/router';
 import { MovieService } from 'src/app/services/movie.service';
 
 @Component({
@@ -10,14 +10,12 @@ import { MovieService } from 'src/app/services/movie.service';
 export class MovieDetailPage implements OnInit {
 
   movie: any;
-  id: string;
-  constructor(private activatedRoute: ActivatedRoute, private movieService: MovieService) {
-    this.id = '';
-  }
+  constructor(private activatedRoute: ActivatedRoute, private movieService: MovieService) {}
 
   ngOnInit() {
+    const id = this.activatedRoute.snapshot.paramMap.get('id'); //Recojo el valor del parameto id
     this.activatedRoute.params.subscribe( params => console.log(params));
-    this.movieService.getDetail(this.id).subscribe(movie => this.movie = movie);
+    this.movieService.getDetail(id).subscribe(movie => {this.movie = movie[0]; } );
   }
 
 }
